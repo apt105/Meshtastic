@@ -12,7 +12,7 @@ module.exports = {
     {
       "Howto's": [],
     },
-    "device/faq",
+    "getting_started/faq",
   ],
   Software: [
     "software/overview-software",
@@ -71,8 +71,8 @@ module.exports = {
       Protobufs: ["protobufs/api"],
     },
     "developers/api_developers",
-    "device/documents",
-    "device/radio-settings",
-    "device/http-api",
+    "developers/documents",
+    "developers/radio-settings",
+    "developers/http-api",
   ],
 };
