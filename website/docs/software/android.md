@@ -20,9 +20,6 @@ There is a beta program for the app, which will let you test the cutting edge ch
 The app uses anonymous usage statistics and crash reports to allow us to catch problems with Meshtastic and fix them. You can disable this by unticking the checkbox on the settings page.
 
 [![Settings page with statistics consent box highlighted](/img/android/android_stats_consent_sm.png)](/img/android/android_stats_consent.png)
-
-For more information on using the Meshtastic Android App, please see the [software documentation page](/pages/software_docs/meshtastic-android.md).
-  
   
    
 Google Play and the Google Play logo are trademarks of Google LLC.
