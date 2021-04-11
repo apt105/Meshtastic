@@ -3,7 +3,7 @@ module.exports = {
     "getting_started/overview_getting_started",
     {
       "Flashing Firmware": [
-        "getting_started/flashing_firmware_getting_started",
+        "getting_started/flashing_firmware",
         "getting_started/firmware/linux",
         "getting_started/firmware/windows",
       ],
