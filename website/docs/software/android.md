@@ -23,4 +23,4 @@ The app uses anonymous usage statistics and crash reports to allow us to catch p
   
    
 Google Play and the Google Play logo are trademarks of Google LLC.
-=======
+
