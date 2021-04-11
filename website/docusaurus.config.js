@@ -41,7 +41,7 @@ module.exports = {
         {
           to: "docs/developers/api_developers",
           activeBasePath: "docs/developers",
-          label: "Developers",
+          label: "Developement",
           position: "left",
         },
         {
