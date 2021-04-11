@@ -5,7 +5,6 @@ sidebar_label: Windows
 slug: /getting_started/firmware/windows
 ---
 
-# Windows Firmware Flashing Instructions
 
 1. Download and unzip the latest Meshtastic firmware [release](https://github.com/meshtastic/Meshtastic-esp32/releases).
 2. Download [ESPHome Flasher](https://github.com/esphome/esphome-flasher/releases).

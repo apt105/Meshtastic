@@ -5,8 +5,6 @@ sidebar_label: Linux
 slug: /getting_started/firmware/linux
 ---
 
-# Linux Firmware Flashing Instructions
-
 Requires `Python` and `pip`
 
 1. Download and unzip the latest Meshtastic firmware [release](https://github.com/meshtastic/Meshtastic-esp32/releases).
