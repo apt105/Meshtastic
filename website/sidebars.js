@@ -9,10 +9,10 @@ module.exports = {
       ],
     },
     "getting_started/concepts_getting_started",
+    "getting_started/faq",
     {
       "Howto's": [],
     },
-    "getting_started/faq",
   ],
   Software: [
     "software/overview-software",
