@@ -22,6 +22,7 @@ module.exports = {
         "software/android-advanced-software",
       ],
     },
+    "software/ios-software",
     {
       "Meshtastic.js": [
         "js/getting-started",
