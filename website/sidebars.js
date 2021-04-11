@@ -43,7 +43,7 @@ module.exports = {
         "software/plugins/environment-plugin",
         "software/plugins/external-notification-plugin",
         "software/plugins/serial-plugin",
-      ]
+      ],
     },
     {
       "Meshtastic-python": [
