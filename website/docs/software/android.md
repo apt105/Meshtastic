@@ -24,6 +24,6 @@ The app uses anonymous usage statistics and crash reports to allow us to catch p
 For more information on using the Meshtastic Android App, please see the [software documentation page](/pages/software_docs/meshtastic-android.md).
   
   
-  
+   
 Google Play and the Google Play logo are trademarks of Google LLC.
 =======
