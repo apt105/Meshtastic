@@ -19,7 +19,7 @@ module.exports = {
     {
       "Meshtastic Android": [
         "software/android-software",
-        "software/advanced-android-software",
+        "software/android-advanced-software",
       ],
     },
     {
@@ -41,7 +41,7 @@ module.exports = {
         "software/plugins/store-foreward-plugin",
         "software/plugins/range-test-plugin",
         "software/plugins/environment-plugin",
-        "software/plugins/external-notification-plugin",
+        "software/plugins/ext-notif-plugin",
         "software/plugins/serial-plugin",
       ],
     },
