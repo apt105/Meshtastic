@@ -17,7 +17,10 @@ module.exports = {
   Software: [
     "software/overview-software",
     {
-      "Meshtastic Android": [],
+      "Meshtastic Android": [
+        "software/android-software",
+        "software/advanced-android-software",
+      ],
     },
     {
       "Meshtastic.js": [
@@ -31,6 +34,16 @@ module.exports = {
           href: "https://js.meshtastic.org",
         },
       ],
+    },
+    {
+      "Plugins": [
+        "software/plugins/plugins",
+        "software/plugins/store-foreward-plugin",
+        "software/plugins/range-test-plugin",
+        "software/plugins/environment-plugin",
+        "software/plugins/external-notification-plugin",
+        "software/plugins/serial-plugin",
+      ]
     },
     {
       "Meshtastic-python": [

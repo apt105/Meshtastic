@@ -5,6 +5,7 @@ sidebar_label: Windows
 slug: /getting_started/firmware/windows
 ---
 
+## Installation from GUI
 
 1. Download and unzip the latest Meshtastic firmware [release](https://github.com/meshtastic/Meshtastic-esp32/releases).
 2. Download [ESPHome Flasher](https://github.com/esphome/esphome-flasher/releases).
@@ -17,3 +18,16 @@ slug: /getting_started/firmware/windows
 9. Once complete, “Done! Flashing is complete!” will be shown.
 10. The board will boot and show the Meshtastic logo.
 11. Debug messages sent from the Meshtastic device can be viewed with a terminal program such as PuTTY. Within PuTTY, click “Serial”, enter the “Serial line” com port (can be found at step 4), enter “Speed” as 921600, then click “Open”.
+
+## Installation from commandline
+
+Requires Python, pip, Gitbash
+
+1. Download and install [Python](https://www.python.org/)
+2. If you have a recent version of Python, pip should be installed by default. Check using the command `py -m pip --version`. This will display the installed version of pip. If it returns an error, you will need to [install pip](https://pip.pypa.io/en/stable/installing/).
+3. Download and install [Gitbash](https://gitforwindows.org/) (or other appropriate shell)
+4. Run `gitbash` and complete the installation as per the instructions for linux commandline.
+
+## Troubleshooting
+
+For any issues during setup, search [our forum](https://meshtastic.discourse.group) to find a solution. If you can't find one, please post your problem, providing as much detail as possible.
