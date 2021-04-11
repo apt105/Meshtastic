@@ -1,7 +1,11 @@
 module.exports = {
   "Getting Started": [
     "getting_started/overview_getting_started",
-    "getting_started/flashing_firmware_getting_started",
+    "getting_started/flashing_firmware_getting_started"
+      {
+        "getting_started/firmware/linux",
+        "getting_started/firmware/windows"
+      },
     "getting_started/concepts_getting_started",
     {
       "Howto's": [],
@@ -59,7 +63,7 @@ module.exports = {
     "hardware/behaviour_hardware",
     "hardware/antenna_hardware",
   ],
-  Developers: [
+  Developement: [
     {
       Protobufs: ["protobufs/api"],
     },
