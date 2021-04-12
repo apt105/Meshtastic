@@ -101,7 +101,7 @@ function Home() {
             </div>
           </section>
         )}
-        <section style={{ paddingTop: "2rem" }}>
+        <section style={{ paddingBottom: "2rem" }}>
           <div className="container">
             <h2>Features</h2>
             <ul>
