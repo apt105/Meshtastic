@@ -89,4 +89,7 @@ module.exports = {
     "developers/radio-settings",
     "developers/http-api",
   ],
+  Showcase: [
+    "showcase/showcase",
+  ]
 };

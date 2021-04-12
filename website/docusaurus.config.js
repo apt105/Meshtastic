@@ -45,6 +45,12 @@ module.exports = {
           position: "left",
         },
         {
+          to: "docs/showcase/showcase",
+          activeBasePath: "docs/showcase",
+          label: "Showcase",
+          position: "left",
+        },
+        {
           href: "https://meshtastic.discourse.group",
           label: "Forum",
           position: "left",
