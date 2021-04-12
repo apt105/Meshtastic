@@ -83,11 +83,13 @@ function Home() {
         </div>
       </header>
       <main>
-        <div className="container">
-          <h2>What is Meshtastic?</h2>
-          <p>Meshtastic® is a project that lets you use inexpensive GPS radios as an extensible, long battery life, secure, mesh GPS communicator. These radios are great for hiking, skiing, paragliding - essentially any hobby where you don’t have reliable internet access. Each member of your private mesh can always see the location and distance of all other members and any text messages sent to your group chat.</p>
-          <p>The radios automatically create a mesh to forward packets as needed, so everyone in the group can receive messages from even the furthest member. The radios will optionally work with your phone, but no phone is required.</p>
-        </div>
+        <section style={{ paddingTop: "2rem", paddingBottom: "2rem" }}>
+          <div className="container">
+            <h2>What is Meshtastic?</h2>
+            <p>Meshtastic® is a project that lets you use inexpensive GPS radios as an extensible, long battery life, secure, mesh GPS communicator. These radios are great for hiking, skiing, paragliding - essentially any hobby where you don’t have reliable internet access. Each member of your private mesh can always see the location and distance of all other members and any text messages sent to your group chat.</p>
+            <p>The radios automatically create a mesh to forward packets as needed, so everyone in the group can receive messages from even the furthest member. The radios will optionally work with your phone, but no phone is required.</p>
+          </div>
+        </section>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
