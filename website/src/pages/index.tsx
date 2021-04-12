@@ -86,7 +86,7 @@ function Home() {
         <section style={{ paddingTop: "2rem" }}>
           <div className="container">
             <h2>What is Meshtastic?</h2>
-            <p>Meshtastic® is a project that lets you use inexpensive GPS radios as an extensible, long battery life, secure, mesh GPS communicator. These radios are great for hiking, skiing, paragliding - essentially any hobby where you don’t have reliable internet access. Each member of your private mesh can always see the location and distance of all other members and any text messages sent to your group chat.</p>
+            <p>Meshtastic® is a project that lets you use inexpensive LORA radios as an extensible, long battery life, secure, mesh GPS communicator. These radios are great for hiking, skiing, paragliding - essentially any hobby where you don’t have reliable internet access. Each member of your private mesh can always see the location and distance of all other members and any text messages sent to your group chat.</p>
             <p>The radios automatically create a mesh to forward packets as needed, so everyone in the group can receive messages from even the furthest member. The radios will optionally work with your phone, but no phone is required.</p>
           </div>
         </section>
@@ -101,7 +101,17 @@ function Home() {
             </div>
           </section>
         )}
-
+        <section style={{ paddingTop: "2rem" }}>
+          <div className="container">
+            <h2>Features</h2>
+            <ul>
+              <li>Secure - Communications encrypted with AES256</li>
+              <li>Long Range - Miles between nodes with line of sight</li>
+              <li>Low Power - Up to eight days of a battery life</li>
+              <li>Open Source - Growing community of contributors</li>
+            </ul>
+          </div>
+        </section>
       </main>
     </Layout>
   );
