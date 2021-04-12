@@ -83,7 +83,7 @@ function Home() {
         </div>
       </header>
       <main>
-        <section style={{ paddingTop: "2rem", paddingBottom: "2rem" }}>
+        <section style={{ paddingTop: "2rem" }}>
           <div className="container">
             <h2>What is Meshtastic?</h2>
             <p>Meshtastic® is a project that lets you use inexpensive GPS radios as an extensible, long battery life, secure, mesh GPS communicator. These radios are great for hiking, skiing, paragliding - essentially any hobby where you don’t have reliable internet access. Each member of your private mesh can always see the location and distance of all other members and any text messages sent to your group chat.</p>
