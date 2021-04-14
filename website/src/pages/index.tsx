@@ -98,6 +98,7 @@ function Home() {
               <li>Long Range - Miles between nodes with line of sight</li>
               <li>Low Power - Up to eight days of a battery life</li>
               <li>Open Source - Growing community of contributors</li>
+              <li>GPS coordination - Share location with other nodes</li>
             </ul>
           </div>
         </section>

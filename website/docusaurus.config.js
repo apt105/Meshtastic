@@ -82,7 +82,7 @@ module.exports = {
               to: "docs/hardware/supported_hardware",
             },
             {
-              label: "Developers",
+              label: "Developement",
               to: "docs/developers/api_developers",
             },
           ],
