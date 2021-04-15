@@ -56,7 +56,11 @@ module.exports = {
         },
       ],
     },
-    "software/web-app-software",
+    {
+      "Meshtastic-web": [
+        "software/web/web-app-software",
+      ],
+    },
     {
       Other: [
         "software/other/sw-design",
