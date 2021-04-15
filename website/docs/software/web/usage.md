@@ -34,4 +34,4 @@ Option 3) Flash the device with the SPIFFS instructions in platform.io below.
 
 ### Insufficient space to upload new files
 
-Cause: Typically a small partition has been set aside from previous firmware installed on the module. Instructions for how to fix this can be found on the [ESP32-Partitions](/docs/software/web/partitions) page.
+Cause: Typically a small partition has been set aside from previous firmware installed on the module. Instructions for how to fix this can be found on the [ESP32-Partitions](/docs/software/web/web-partitions-software) page.
