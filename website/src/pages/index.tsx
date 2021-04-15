@@ -14,10 +14,7 @@ const features = [
     imageUrl: "img/software.svg",
     description: (
       <>
-        Having an ever-growing, vibrant software ecosystem, there's almost
-        certainly, a capable solution ready to go for your project. With
-        libraries for Typescript and Python, apps for all major platforms and a
-        whole suite of native integrations, there's something for everyone.
+        With an ever-growing array of applications, plugins and interface options, Meshtastic can be used with a variety of different devices to create a network that suits your requirements.
       </>
     ),
   },
@@ -38,9 +35,9 @@ const features = [
     imageUrl: "img/efficiency.svg",
     description: (
       <>
-        Go for days on end and on a single battery, or extend it infinitely with
-        a solar cell, communicate with tens kilometres between nodes on
-        inexpensive beginner friendly hardware.
+        Go for days on end and on a single battery, or extend it indefinitely with
+        a solar cell, communicate across tens kilometres between nodes on
+        inexpensive, beginner friendly hardware.
       </>
     ),
   },
@@ -98,7 +95,7 @@ function Home() {
               <li>Long Range - Miles between nodes with line of sight</li>
               <li>Low Power - Up to eight days of a battery life</li>
               <li>Open Source - Growing community of contributors</li>
-              <li>GPS coordination - Share location with other nodes</li>
+              <li>GPS coordination - Share your location with other nodes</li>
             </ul>
           </div>
         </section>
