@@ -59,6 +59,10 @@ module.exports = {
     {
       "Meshtastic-web": [
         "software/web/web-app-software",
+        "software/web/web-config-software",
+        "software/web/web-usage-software",
+        "software/web/web-partitions-softwre",
+        "software/web/web-development-software",
       ],
     },
     {
