@@ -28,7 +28,7 @@ pio run --target erase --environment tbeam
 ```
 Then re-install the firmware ie using ESPHome Flasher
 
-Requires: Python, [Pio](https://pypi.org/project/pio/), command to be run in the root directory of the meshtastic-device project once you’ve cloned it (this last requirement is an assumption based on pio not knowing what a tbeam is, may also require Visual Studio Code and PlatformIO as these were installed during use).
+Requires: [Python](https://www.python.org/), [Pio](https://pypi.org/project/pio/), command to be run in the root directory of the meshtastic-device project once you’ve cloned it (this last requirement is an assumption based on pio not knowing what a tbeam is, may also require Visual Studio Code and PlatformIO as these were installed during use).
 
 #### Esptool.py
 @1984 posted another method using the python based esptool.py to erase and re-flash the firmware:
@@ -39,7 +39,7 @@ esptool.py --baud 921600 write_flash 0x00390000 spiffs-*.bin
 esptool.py --baud 921600 write_flash 0x10000 firmware-tbeam-EU865-1.1.42.bin
 ```
 
-Requires: Python and esptool.py
+Requires: [Python](https://www.python.org/) and [esptool.py](https://github.com/espressif/esptool)
 
 #### Visual Studio & PlatformIO
 There is also the method of using the Visual Studio IDE as posted by @mc-hamster. This requires having Visual Studio and PlatformIO installed, along with having cloned the meshtastic-device code as per the [build instructions](https://github.com/meshtastic/Meshtastic-device/blob/master/docs/software/build-instructions.md). After loading the project in Visual Studio, select the PlatformIO alien icon, then find the appropriate device, and then click the Erase Flash command.
@@ -48,7 +48,7 @@ There is also the method of using the Visual Studio IDE as posted by @mc-hamster
 
 https://meshtastic.discourse.group/t/configuring-channel-via-python-api/1948/17
 
-Requires: Visual Studio Code, PlatformIO, cloned copy of the Meshtastic-device project
+Requires: [Visual Studio Code](https://code.visualstudio.com/), [PlatformIO](https://platformio.org/), cloned copy of the Meshtastic-device project
 
 ## How do I know it's worked?
 
