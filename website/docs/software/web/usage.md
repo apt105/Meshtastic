@@ -4,8 +4,6 @@ title: Using Meshtastic-web
 sidebar_label: Usage
 ---
 
-## Usage
-
 Assuming your device is connected to a wireless network, push the User Button (that's the middle button on the T-Beam) until you get to the Network settings screen.
 
 That screen will display four lines (example):

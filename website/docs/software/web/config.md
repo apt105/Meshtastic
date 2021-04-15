@@ -76,5 +76,6 @@ To turn it off, simply reboot the device.
 
 Right now, the only way to set those preference is through the Meshtastic-python command line tool. At some point, we will be able to configure this from your mobile phone over Bluetooth.
 
-Note: The first time your device restarts after enabling WiFi, it will take an additional 20-30 seconds to boot. This is to generate self-signed SSL keys. The keys will be saved for future reuse.
-
+:::note
+The first time your device restarts after enabling WiFi, it will take an additional 20-30 seconds to boot. This is to generate self-signed SSL keys. The keys will be saved for future reuse.
+:::
