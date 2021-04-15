@@ -23,17 +23,21 @@ The most reliable way to fix this problem is to use the install script that is i
 https://meshtastic.discourse.group/t/solved-help-installing-with-other-than-esphome-flasher/2214/9
 
 #### Using Pio in Windows
-`pio run --target erase --environment tbeam`\
+```bash
+pio run --target erase --environment tbeam
+```
 Then re-install the firmware ie using ESPHome Flasher
 
 Requires: Python, [Pio](https://pypi.org/project/pio/), command to be run in the root directory of the meshtastic-device project once you’ve cloned it (this last requirement is an assumption based on pio not knowing what a tbeam is, may also require Visual Studio Code and PlatformIO as these were installed during use).
 
 #### Esptool.py
-@1984 posted another method using the python based esptool.py to erase and re-flash the firmware:\
-`esptool.py --baud 921600 erase_flash`\
-`esptool.py --baud 921600 write_flash 0x1000 system-info.bin`\
-`esptool.py --baud 921600 write_flash 0x00390000 spiffs-*.bin`\
-`esptool.py --baud 921600 write_flash 0x10000 firmware-tbeam-EU865-1.1.42.bin`
+@1984 posted another method using the python based esptool.py to erase and re-flash the firmware:
+```bash
+esptool.py --baud 921600 erase_flash
+esptool.py --baud 921600 write_flash 0x1000 system-info.bin
+esptool.py --baud 921600 write_flash 0x00390000 spiffs-*.bin
+esptool.py --baud 921600 write_flash 0x10000 firmware-tbeam-EU865-1.1.42.bin
+```
 
 Requires: Python and esptool.py
 
@@ -42,7 +46,8 @@ There is also the method of using the Visual Studio IDE as posted by @mc-hamster
 
 ![Erasing the flash using PlatformIO in Visual Studio Code](https://raw.githubusercontent.com/meshtastic/Meshtastic-device/master/images/platformio-erase.png)
 
-https://meshtastic.discourse.group/t/configuring-channel-via-python-api/1948/17 \
+https://meshtastic.discourse.group/t/configuring-channel-via-python-api/1948/17
+
 Requires: Visual Studio Code, PlatformIO, cloned copy of the Meshtastic-device project
 
 ## How do I know it's worked?
