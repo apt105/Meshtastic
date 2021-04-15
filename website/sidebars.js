@@ -56,9 +56,7 @@ module.exports = {
         },
       ],
     },
-    {
-      "software/web-app-software",
-    },
+    "software/web-app-software",
     {
       Other: [
         "software/other/sw-design",
