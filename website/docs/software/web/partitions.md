@@ -23,7 +23,7 @@ The most reliable way to fix this problem is to use the install script that is i
 https://meshtastic.discourse.group/t/solved-help-installing-with-other-than-esphome-flasher/2214/9
 
 #### Using Pio in Windows
-```bash
+```powershell
 pio run --target erase --environment tbeam
 ```
 Then re-install the firmware ie using ESPHome Flasher
@@ -42,7 +42,7 @@ esptool.py --baud 921600 write_flash 0x10000 firmware-tbeam-EU865-1.1.42.bin
 Requires: [Python](https://www.python.org/) and [esptool.py](https://github.com/espressif/esptool)
 
 #### Visual Studio & PlatformIO
-There is also the method of using the Visual Studio IDE as posted by @mc-hamster. This requires having Visual Studio and PlatformIO installed, along with having cloned the meshtastic-device code as per the [build instructions](https://github.com/meshtastic/Meshtastic-device/blob/master/docs/software/build-instructions.md). After loading the project in Visual Studio, select the PlatformIO alien icon, then find the appropriate device, and then click the Erase Flash command.
+There is also the method of using the Visual Studio IDE. This requires having Visual Studio and PlatformIO installed, along with having cloned the meshtastic-device code as per the [build instructions](https://github.com/meshtastic/Meshtastic-device/blob/master/docs/software/build-instructions.md)<!-- link to be changed once build page is completed -->. After loading the project in Visual Studio, select the PlatformIO alien icon, then find the appropriate device, and then click the Erase Flash command.
 
 ![Erasing the flash using PlatformIO in Visual Studio Code](https://raw.githubusercontent.com/meshtastic/Meshtastic-device/master/images/platformio-erase.png)
 
