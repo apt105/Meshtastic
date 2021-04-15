@@ -57,6 +57,9 @@ module.exports = {
       ],
     },
     {
+      "software/web-app-software"
+    }
+    {
       Other: [
         "software/other/sw-design",
         "software/other/remote-hardware-service",
