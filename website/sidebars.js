@@ -16,6 +16,7 @@ module.exports = {
   ],
   Software: [
     "software/overview-software",
+    "software/device-software",
     {
       "Meshtastic Android": [
         "software/android-software",
