@@ -89,13 +89,15 @@ module.exports = {
     "hardware/supported_hardware",
     "hardware/behaviour_hardware",
     "hardware/antenna_hardware",
-    "3D printed cases": [
-      {
-        type: "link",
-        label: "Cases",
-        href: "/docs/hardware/cases.js",
-      },
-    ],
+    {
+      "3D printed cases": [
+        {
+          type: "link",
+          label: "Cases",
+          href: "/docs/hardware/cases.js",
+        },
+      ],
+    },
   ],
   Developement: [
     {
