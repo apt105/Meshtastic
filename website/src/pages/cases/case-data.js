@@ -115,7 +115,7 @@ const boxes = [
       title: '26650 battery sized case for the T-Beam',
       creator: '@HaveBlue',
       description: 'Integrated buttons, printable with minimal supports',
-      preview: require('./cases/'),
+      preview: require('https://aws1.discourse-cdn.com/free1/uploads/meshtastic/original/2X/5/57cb4caaf409585565b2399f30e8938093ec6951.jpeg'),
       website: 'http://haveblue.org/wp-content/uploads/2021/04/Have-Blue-26650-case-v1.0-for-SX1262-T-Beam-v1.1.zip',
       buttonVal: 'Download zip',
     },
