@@ -9,7 +9,7 @@ import boxes from './case-data.js';
 
 function Showcases() {
   return (
-    <Layout title={TITLE} description={DESCRIPTION}>
+    <Layout title="3D printed cases" description="The Meshtastic community has produced a number of designs for 3D printed and laser cut cases. Here are a selection of them.">
       <main className="container margin-vert--lg">
         <div className="text--center margin-bottom--xl">
           <h1>3D printed cases</h1>
