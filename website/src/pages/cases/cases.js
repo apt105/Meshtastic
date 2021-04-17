@@ -20,37 +20,28 @@ function Showcases() {
             <div key={box.title} className="col col--4 margin-bottom--lg">
               <div className={clsx('card', styles.showcaseUser)}>
                 <div className="card__image">
-                  <image img={boxes.preview} alt={boxes.title} />
+                  <image img={box.preview} alt={box.title} />
                 </div>
                 <div className="card__body">
                   <div className="avatar">
                     <div className="avatar__intro margin-left--none">
-                      <h4 className="avatar__name">{boxes.title}</h4>
+                      <h4 className="avatar__name">{box.title}</h4>
                       <small className="avatar__subtitle">
-                        {boxes.description}
+                        {box.description}
                       </small>
                     </div>
                   </div>
                 </div>
-                {(boxes.website || boxes.source) && (
+                {(box.website || box.source) && (
                   <div className="card__footer">
                     <div className="button-group button-group--block">
-                      {boxes.website && (
+                      {box.website && (
                         <a
                           className="button button--small button--secondary button--block"
-                          href={boxes.website}
+                          href={box.website}
                           target="_blank"
                           rel="noreferrer noopener">
-                          {boxes.button}
-                        </a>
-                      )}
-                      {user.source && (
-                        <a
-                          className="button button--small button--secondary button--block"
-                          href={boxes.source}
-                          target="_blank"
-                          rel="noreferrer noopener">
-                          Source
+                          {box.button}
                         </a>
                       )}
                     </div>
