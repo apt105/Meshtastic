@@ -86,11 +86,9 @@ module.exports = {
     },
   ],
   Hardware: [
-    
     "hardware/supported_hardware",
-    /*
     "hardware/behaviour_hardware",
-    "hardware/antenna_hardware", */
+    "hardware/antenna_hardware", /*
     { 
       "3D printed cases": [ 
         {
@@ -99,7 +97,7 @@ module.exports = {
           href: "/cases/cases.js",
         },
       ], 
-    }, 
+    }, */
   ],
   Developement: [
     {
