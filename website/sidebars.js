@@ -92,7 +92,7 @@ module.exports = {
     {
       type: "link",
       label: "Cases",
-      href: "/docs/hardware/cases/cases.js",
+      href: "/docs/hardware/cases.js",
     },
   ],
   Developement: [
