@@ -89,6 +89,7 @@ module.exports = {
     "hardware/supported_hardware_hardware",
     "hardware/behaviour_hardware",
     "hardware/antenna_hardware",
+    "hardware/cases/cases.js"
   ],
   Developement: [
     {
