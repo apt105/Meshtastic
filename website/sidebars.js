@@ -91,14 +91,14 @@ module.exports = {
     /*
     "hardware/behaviour_hardware",
     "hardware/antenna_hardware",
-    {
-      "3D printed cases": [ */
+    { */
+      "3D printed cases": [ 
         {
           type: "link",
           label: "Cases",
           href: "/docs/hardware/cases.js",
-        }, /*
-      ],
+        },
+      ], /*
     }, */
   ],
   Developement: [
