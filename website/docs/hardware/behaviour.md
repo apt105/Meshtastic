@@ -2,5 +2,5 @@
 id: behaviour_hardware
 title: Button Behaviour
 sidebar_label: Behaviour
-slug: /hardware/behaviour
+slug: /hardware/behaviour_hardware
 ---
