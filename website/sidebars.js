@@ -85,7 +85,8 @@ module.exports = {
       ],
     },
   ],
-  Hardware: [/*
+  Hardware: [
+    /*
     "hardware/supported_hardware",
     "hardware/behaviour_hardware",
     "hardware/antenna_hardware",
