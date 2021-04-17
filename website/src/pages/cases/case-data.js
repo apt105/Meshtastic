@@ -5,7 +5,7 @@ const boxes: {
   preview: String;
   website: String;
   buttonVal: String;
-}[]
+}[];
 
 const boxes = [
     {
