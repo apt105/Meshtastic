@@ -15,7 +15,7 @@ sidebar_label: LILYGO® Lora
 
 ## Lora V2.0
 
-[![LILYGO® TTGO Lora V2](/img/hardware/lora-v2.png)](https://www.aliexpress.com/item/32846302183.html)
+[![LILYGO® TTGO Lora V2](/img/hardware/lora-v2.0.png)](https://www.aliexpress.com/item/32846302183.html)
 
 ## Lora V2.1-1.6
 
