@@ -90,8 +90,8 @@ module.exports = {
     "hardware/behaviour_hardware",
     "hardware/antenna_hardware",
     {
-      type: 'ref',
-      label: 'Cases',
+      type: "ref",
+      label: "Cases",
       href: "hardware/cases/cases.js",
     }
   ],
