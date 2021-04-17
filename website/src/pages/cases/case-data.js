@@ -1,3 +1,4 @@
+/*
 const boxes: {
   title: String;
   creator: String;
@@ -5,7 +6,9 @@ const boxes: {
   preview: String;
   website: String;
   buttonVal: String;
-}[] = [
+}[];
+*/
+const boxes = [
     {
         title: 'Meshtastic Slim Case',
         creator: 'BrianN',
@@ -143,7 +146,7 @@ const boxes: {
       buttonVal: '',
     }, */
 ];
-
+/*
 boxes.forEach((box) => {
     if (!box.preview || 
         (box.preview instanceof String &&
@@ -151,6 +154,6 @@ boxes.forEach((box) => {
     {
         throw new Error ('Bad case site image preview',);
     }});
-
+*/
   
 export default boxes;
