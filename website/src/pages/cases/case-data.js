@@ -1,3 +1,12 @@
+const boxes: {
+  title: String;
+  creator: String;
+  description: String;
+  preview: String;
+  website: String;
+  buttonVal: String;
+}[]
+
 const boxes = [
     {
         title: 'Meshtastic Slim Case',
