@@ -86,7 +86,7 @@ module.exports = {
     },
   ],
   Hardware: [
-    "hardware/supported_hardware_hardware",
+    "hardware/supported_hardware",
     "hardware/behaviour_hardware",
     "hardware/antenna_hardware",
     {
