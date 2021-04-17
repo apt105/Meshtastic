@@ -20,12 +20,12 @@ function Showcases() {
             <div key={box.title} className="col col--4 margin-bottom--lg">
               <div className={clsx('card', styles.showcaseUser)}>
                 <div className="card__image">
-                  <Image img={user.preview} alt={user.title} />
+                  <Image img={boxes.preview} alt={boxes.title} />
                 </div>
                 <div className="card__body">
                   <div className="avatar">
                     <div className="avatar__intro margin-left--none">
-                      <h4 className="avatar__name">{user.title}</h4>
+                      <h4 className="avatar__name">{boxes.title}</h4>
                       <small className="avatar__subtitle">
                         {boxes.description}
                       </small>
