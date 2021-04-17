@@ -1,6 +1,6 @@
 module.exports = {
   title: "Meshtastic",
-  tagline: "Open Source hiking, pilot, skiing and secure GPS mesh communicator",
+  tagline: "Open Source adaptable LORA mesh communicator",
   url: "https://meshtastic.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
