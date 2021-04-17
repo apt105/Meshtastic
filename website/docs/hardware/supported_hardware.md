@@ -2,7 +2,6 @@
 id: supported_hardware_hardware
 title: Supported hardware
 sidebar_label: Supported hardware
-slug: /hardware/supported_hardware
 ---
 
 | Vendor | Product line | Version | Board labels     | Notes                                                                                                                 | URL                                                       |
