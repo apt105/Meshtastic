@@ -1,0 +1,4 @@
+:global(.card__image) {
+    max-height: 175px;
+    overflow: hidden;
+  }
