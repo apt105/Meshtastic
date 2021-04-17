@@ -87,6 +87,14 @@ module.exports = {
   ],
   Hardware: [
     "hardware/supported_hardware",
+    {
+      "Supported Hardware": [
+        "hardware/tbeam-hardware",
+        "hardware/lora-hardware",
+        "hardware/heltec-hardware",
+        "hardware/techo-hardware",
+      ],
+    },
     "hardware/behaviour_hardware",
     "hardware/antenna_hardware", /*
     { 
