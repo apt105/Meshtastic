@@ -21,7 +21,7 @@ Meshtastic pre-installed
 
 * Comes with screen (some soldering required to assemble)
 
-[<img alt="LILYGO® TTGO T-Beam v1.1" src="/img/hardware/t-beam-v1.1.png" style={{zoom:'25%'}} />](https://www.aliexpress.com/item/4001178678568.html)
+[<img alt="LILYGO® TTGO T-Beam v1.1" src="/img/hardware/t-beam-v1.1.png" style={{zoom:'35%'}} />](https://www.aliexpress.com/item/4001178678568.html)
 
 ## T-Beam - M8N
 
@@ -40,4 +40,4 @@ Meshtastic pre-installed
 
 ## Screen
 
-[![0.96 inch OLED display](/img/hardware/screen.png)](https://www.aliexpress.com/item/32922106384.html)
+[<img alt="0.96 inch OLED display" src="/img/hardware/screen.png" style={{zoom:'25%'}} />](https://www.aliexpress.com/item/32922106384.html)
