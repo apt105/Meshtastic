@@ -6,7 +6,8 @@ sidebar_label: LILYGO® T-Beam
 
 ## T-Beam - Meshtastic
 
-Meshtastic pre-installed
+* Meshtastic pre-installed
+* Comes with screen (some soldering required to assemble)
 
 [<img alt="LILYGO® TTGO T-Beam Meshtastic" src="/img/hardware/t-beam-meshtastic.png" style={{zoom:'25%'}}  />](https://www.aliexpress.com/item/4001178678568.html)
 
