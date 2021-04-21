@@ -8,6 +8,7 @@ module.exports = {
   favicon: "img/meshtastic-design/web/favicon.ico",
   organizationName: "meshtastic",
   themes: ['@docusaurus/theme-live-codeblock'],
+  plugins: ['@docusaurus/plugin-ideal-image'],
   projectName: "meshtastic",
   themeConfig: {
     colorMode: {
