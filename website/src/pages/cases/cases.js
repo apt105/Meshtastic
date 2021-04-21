@@ -16,7 +16,7 @@ function Showcases() {
           <p>The Meshtastic community has produced a number of designs for 3D printed and laser cut cases. Here are a selection of them.</p>
         </div>
         <div className="row">
-          {boxes.map((box) => (
+          {caseBoxes.map((box) => (
             <div key={box.caseTitle} className="col col--4 margin-bottom--lg">
               <div className={clsx('card', styles.showcaseUser)}>
                 <div className="card__image">

@@ -11,7 +11,7 @@ const boxes: {*/
   /*
 }[];
 */
-const boxes = [
+const caseBoxes = [
   {
     caseTitle: 'Meshtastic Slim Case',
     creator: 'BrianN',
@@ -159,4 +159,4 @@ boxes.forEach((box) => {
     }});
 */
   
-export default boxes;
+export default caseBoxes;
