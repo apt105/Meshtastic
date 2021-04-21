@@ -7,6 +7,7 @@ module.exports = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/meshtastic-design/web/favicon.ico",
   organizationName: "meshtastic",
+  themes: ['@docusaurus/theme-live-codeblock'],
   projectName: "meshtastic",
   themeConfig: {
     colorMode: {
