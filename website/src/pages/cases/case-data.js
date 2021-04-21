@@ -11,7 +11,7 @@ var caseTitle: String;
   
 }[];
 */
-var caseBoxes = [
+const caseBoxes = [
   {
     caseTitle: 'Meshtastic Slim Case',
     creator: 'BrianN',
@@ -132,6 +132,8 @@ var caseBoxes = [
     website: 'http://haveblue.org/wp-content/uploads/2021/04/Have-Blue-26650-case-v1.0-for-SX1262-T-Beam-v1.1.zip',
     buttonVal: 'Download zip',
   },
+];
+
 /*    {
       caseTitle: '',
       creator: '',
@@ -148,7 +150,7 @@ var caseBoxes = [
       website: '',
       buttonVal: '',
     }, */
-];
+
 /*
 boxes.forEach((box) => {
     if (!box.preview || 

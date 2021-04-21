@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Image from '@theme/IdealImage';
+//import Image from '@theme/IdealImage';
 import Layout from '@theme/Layout';
 
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import boxes from './case-data.js';
+import caseBoxes from './case-data.js';
 
 function Showcases() {
   return (
