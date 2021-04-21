@@ -1,14 +1,14 @@
 //import { title } from "../../../docusaurus.config";
 
 /*
-const boxes: {*/
-  caseTitle: String;
+const boxes: {
+var caseTitle: String;
   creator: String;
   description: String;
   preview: String;
   website: String;
   buttonVal: String;
-  /*
+  
 }[];
 */
 const caseBoxes = [
