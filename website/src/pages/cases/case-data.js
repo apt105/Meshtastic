@@ -11,6 +11,8 @@ var caseTitle: String;
   
 }[];
 */
+
+// prettier-ignore
 const caseBoxes = [
   {
     caseTitle: 'Meshtastic Slim Case',
