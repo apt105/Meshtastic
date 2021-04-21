@@ -17,15 +17,15 @@ function Showcases() {
         </div>
         <div className="row">
           {boxes.map((box) => (
-            <div key={box.title} className="col col--4 margin-bottom--lg">
+            <div key={box.caseTitle} className="col col--4 margin-bottom--lg">
               <div className={clsx('card', styles.showcaseUser)}>
                 <div className="card__image">
-                  <image img={box.preview} alt={box.title} />
+                  <image img={box.preview} alt={box.caseTitle} />
                 </div>
                 <div className="card__body">
                   <div className="avatar">
                     <div className="avatar__intro margin-left--none">
-                      <h4 className="avatar__name">{box.title}</h4>
+                      <h4 className="avatar__name">{box.caseTitle}</h4>
                       <small className="avatar__subtitle">
                         {box.description}
                       </small>
