@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import Image from '@theme/IdealImage';
+import Image from '@theme/IdealImage';
 import Layout from '@theme/Layout';
 
 import clsx from 'clsx';
