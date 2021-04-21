@@ -11,7 +11,7 @@ var caseTitle: String;
   
 }[];
 */
-caseBoxes = [
+var caseBoxes = [
   {
     caseTitle: 'Meshtastic Slim Case',
     creator: 'BrianN',
