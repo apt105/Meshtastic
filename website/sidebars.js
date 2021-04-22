@@ -10,6 +10,7 @@ module.exports = {
     },
     "getting_started/concepts_getting_started",
     "getting_started/faq",
+    "getting_started/resrouces_getting_started",
     {
       "Howto's": [],
     },
