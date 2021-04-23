@@ -22,7 +22,7 @@ slug: /getting_started/resources
 ### RF Tools
 
 * [Times Microwave Systems](https://www.timesmicrowave.com/calculator/?Product=RG-6&RunLength=10&Frequency=868)
-*   Coaxial Cable Attenuation & Power Handling Calculator
+    * Coaxial Cable Attenuation & Power Handling Calculator
 
 
 * [Solwise Link Budget Calculator](https://www.solwise.co.uk/link-budget.htm)
