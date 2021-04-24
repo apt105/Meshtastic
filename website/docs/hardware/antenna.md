@@ -51,7 +51,7 @@ While the LoRa devices we are using for Meshtastic are relatively low power radi
 ### Important considerations:
 - what transmission frequency am I using? (varies by region)
   - devices on another frequency will not be able to interact with yours
-  - only specific frequencies are licensed [radio settings](/developers/radio-settings)
+  - only specific frequencies are licensed [radio settings](/docs/developers/radio-settings)
 - how will I be carrying / transporting the radio?
   - a large directional aerial will transmit over significantly greater distance than an omni-directional aerial.  However, it must be pointed at its target so isn't optimal for mobile use.
   - a tuned half wave whip aerial may have more omni-directional range than the quarter wave stubby; but it will be conspicuous in your pocket.
