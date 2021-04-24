@@ -5,7 +5,7 @@ import Layout from '@theme/Layout';
 
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import caseBoxes from './case-data.js';
+import caseBoxes from './case-data._x_js_x_/index.js';
 
 function Showcases() {
   return (
