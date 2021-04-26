@@ -10,6 +10,16 @@ We use the same channel maps as LoRaWAN (though this is not LoRaWAN).
 
 See [this site](https://www.rfwireless-world.com/Tutorials/LoRa-channels-list.html) for more information.
 
+Meshtastic configuration options name the bands as follows:
+
+Centre Channel Frequency|Meshtastic Config Name|Country
+-----|----|----
+903.08Mhz|US|USA
+433.175Mhz|EU433|Europe
+865.2Mhz|EU865|Europe
+920Mhz|JP|Japan
+470Mhz|CN|China
+
 ## LoRaWAN Europe Frequency Band
 
 The maximum power allowed is +14dBm ERP (Effective Radiated Power, see [this site](https://en.wikipedia.org/wiki/Effective_radiated_power) for more information).
