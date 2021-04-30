@@ -97,4 +97,4 @@ For a nice looking cases:
 
 ## IMPORTANT DISCLAIMERS AND FAQ
 
-For a listing of currently missing features and a FAQ click [here](device/faq).
+For a listing of currently missing features and a FAQ click here (device/faq).
