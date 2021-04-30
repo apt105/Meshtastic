@@ -85,6 +85,7 @@ module.exports = {
     },
     {
       "Community projects": [
+        "software/community/community-overview",
         "software/community/community-atak",
         "software/community/community-pygui",
       ],
