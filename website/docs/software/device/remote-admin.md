@@ -6,7 +6,7 @@ sidebar_label: Remote admin
 
 # Remote node administration
 
-This is the first documentation for how to use the [multiple channels](channels.md) feature to enable remote adminstration of meshtastic nodes.  i.e. let you talk through the mesh to some far away node and change that nodes settings.  This is an advanced feature that (currently) few users would need.  Also, keep in mind it is possible (if you are not careful) to assign settings to that remote node that cause it to completely drop off of your mesh.
+This is the first documentation for how to use the multiple channels (channels.md) feature to enable remote adminstration of meshtastic nodes.  i.e. let you talk through the mesh to some far away node and change that nodes settings.  This is an advanced feature that (currently) few users would need.  Also, keep in mind it is possible (if you are not careful) to assign settings to that remote node that cause it to completely drop off of your mesh.
 
 Btw: I promised to document how multi-channel is now used to secure remote GPIO/serial access.  But probably best to debug these instructions first, so I'll wait on that.  If you **do** need to use remote GPIO/serial now, just follow these instructions but name your new channel "gpio" or "serial".
 
