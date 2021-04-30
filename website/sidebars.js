@@ -17,14 +17,23 @@ module.exports = {
   ],
   Software: [
     "software/overview-software",
+    {
+      "Meshtastic device": [
+        "software/device/critical-error-codes",
+      ],
+    },
     "software/device-software",
     {
       "Meshtastic Android": [
-        "software/android-software",
-        "software/android-advanced-software",
+        "software/android/android-installation",
+        "software/android/android-usage",
       ],
     },
-    "software/ios-software",
+    {
+      "Meshtastic iOS": [
+        "software/ios/ios-development",
+      ],
+    },
     {
       "Meshtastic.js": [
         "js/getting-started",
@@ -50,6 +59,9 @@ module.exports = {
     },
     {
       "Meshtastic-python": [
+        "software/python/python-installation",
+        "software/python/python-cli",
+        "software/python/python-usage",
         {
           type: "link",
           label: "API Docs",
