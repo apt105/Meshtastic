@@ -47,7 +47,7 @@ meshtastic --set wifi_ap_mode true --set wifi_ssid mywifissid --set wifi_passwor
 ```
 
 :::note
-For a full list of preferences which can be set (and their documentation) can be found in the [protobufs](/docs/developers/protobufs/api#radioconfiguserpreferences)
+For a full list of preferences which can be set (and their documentation) can be found in the protobufs (/docs/developers/protobufs/api#radioconfiguserpreferences)
 :::
 
 ### Changing channel settings
