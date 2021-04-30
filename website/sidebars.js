@@ -19,6 +19,7 @@ module.exports = {
     "software/overview-software",
     {
       "Meshtastic device": [
+        "software/device/device-remote-admin",
         "software/device/critical-error-codes",
       ],
     },
