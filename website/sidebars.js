@@ -19,6 +19,7 @@ module.exports = {
     "software/overview-software",
     {
       "Meshtastic device": [
+        "software/device-software",
         "software/device/device-channels",
         "software/device/device-remote-admin",
         "software/device/remote-hardware-service",
@@ -27,7 +28,6 @@ module.exports = {
         "software/device/critical-error-codes",
       ],
     },
-    "software/device-software",
     {
       "Meshtastic Android": [
         "software/android/android-installation",
