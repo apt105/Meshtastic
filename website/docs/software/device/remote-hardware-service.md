@@ -21,7 +21,7 @@ You can get the latest python tool/library with `pip3 install --upgrade meshtast
 ## Setup
 
 :::warning
-GPIO access is fundamentally 'dangerous' because invalid options can physically burn-up hardware. Ensure that you understand the schematic for your particular device before trying this as we do not offer a warranty.
+GPIO access is fundamentally dangerous because invalid options can physically damage or destroy your hardware. Ensure that you fully understand the schematic for your particular device before trying this as we do not offer a warranty.
 :::
 
 To prevent access from untrusted users you must first make a `gpio` channel that is used for authenticated access to this feature.  You'll need to install this channel on both the local and remote node.
@@ -47,7 +47,7 @@ Now both devices can talk over the `gpio` channel.
 
 ## Doing GPIO operations
 
-You can programmatically do operations from your own python code by using the meshtastic `RemoteHardwareClient` class - see the [python API] () documentation for more details.
+You can programmatically do operations from your own python code by using the meshtastic `RemoteHardwareClient` class. See the [python API](https://meshtastic.github.io/Meshtastic-python) documentation for more details.
 
 ## Using GPIOs from the python CLI
 

@@ -47,7 +47,7 @@ Primary channel URL: https://www.meshtastic.org/d/#CgUYAyIBAQ
 Complete URL (includes all channels): https://www.meshtastic.org/d/#CgUYAyIBAQopIiAdbsTecxuI1u-voyGwOicsKaPt5ICG23ONsjH-vk5CaCoFYWRtaW4
 ```
 
-Notice that now we have a new secondary channel.  Also, the "--info" option prints out TWO URLs.  The "Complete URL" includes all of the channels this node understands.  You should consider this URL something you should be very cautious about sharing.  In the case of remote adminstration, you only need the node you want to adminster and the node you are locally connected to know this new "admin" channel.
+Notice that now we have a new secondary channel.  Also, the `--info` option prints out TWO URLs.  The `Complete URL` includes all of the channels this node understands.  You should consider this URL something you should be very cautious about sharing.  In the case of remote adminstration, you only need the node you want to adminster and the node you are locally connected to know this new "admin" channel.
 
 ## Sharing the admin channel with other nodes
 
@@ -57,10 +57,12 @@ For this step you need physical access to both the nodes.
 
 1. Create the "admin" channel on the "local node" using the instructions above.
 2. Copy the "Complete URL" someplace for permanent reference/access.
-3. Connect meshtastic-python to the "remote node" over the USB port.
-4. For the "remote node" type "meshtastic --seturl the-url-from-step-2".
-5. Run "meshtastic --info" and confirm that the "Complete URL" is the same for both of the nodes.
-6. Done!
+3. Connect to the "remote node" over the USB port.
+4. For the "remote node" type
+  ```bash
+  meshtastic --seturl the-url-from-step-2
+  ```
+5. Run `meshtastic --info` and confirm that the "Complete URL" is the same for both of the nodes.
 
 At this point you can take your remote node and install it far away and still be able to change any of its settings.
 
@@ -73,11 +75,11 @@ Get the node list from the local node:
 ```bash title="Expected output"
 $ meshtastic --nodes
 Connected to radio
-/----------------------------------------------------------------------------------------------------------\
-|N|    User    |AKA|   ID    |        Position        |Battery|   SNR   |     LastHeard     |    Since     |
-|-+------------+---+---------+------------------------+-------+---------+-------------------+--------------|
-|1|Unknown 9058|?58|!28979058|25.0382°, 121.5731°, N/A|  N/A  |-13.50 dB|2021-03-22 09:25:42|19 seconds ago|
-\----------------------------------------------------------------------------------------------------------/
+/-------------------------------------------------------------------------------------------------------------\
+|N|    User    |AKA|   ID    |Latitude|Longitude|Altitude|Battery|   SNR   |     LastHeard     |    Since     |
+|-+------------+---+---------+--------+---------+--------+-------+---------+-------------------+--------------|
+|1|Unknown 9058|?58|!28979058|25.0382°|121.5731°|  N/A   |  N/A  |-13.50 dB|2021-03-22 09:25:42|19 seconds ago|
+\-------------------------------------------------------------------------------------------------------------/
 ```
 
 Using the node ID from that list, send a message through the mesh telling that node to change its owner name.
