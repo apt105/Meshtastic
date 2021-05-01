@@ -12,10 +12,18 @@ The way this works is that each node keeps a list of channels it knows about.  O
 
 This channel may or may not have a PSK (encryption).  If you are providing mesh to 'the public' we recommend that you always leave this channel with its default psk.  The default PSK is technically encrypted (and random users sniffing the ether would have to use meshtastic to decode it), but the key is included in the github source code and you should assume any 'attacker' would have it.  But for a 'public' mesh you want this, because it allows anyone using meshtastic in your area to send packets through 'your' mesh.
 
-Note: Older meshtastic applications that don't yet understand multi-channel support will only show the user this channel.  
+Note: Older meshtastic applications that don't yet understand multi-channel support will only show the user this channel.
+
+```bash title="Setting default channel"
+$ meshtastic --seturl https://www.meshtastic.org/d/#CgUYAyIBAQ
+```
 
 ### How to use Secondary channels
 
 Any channel you add after that PRIMARY channel is SECONDARY.  Secondary channels are used only for encyryption and (in the case of some special applications) security.  If you would like to have a private channel over a more public mesh, you probably want to create a SECONDARY channel.  When sharing that URL with your private group you will share the "Complete URL".  The complete URL includes your secondary channel (for encryption) and the primary channel (to provide radio/mesh access).
 
 Secondary channels **must** have a PSK (encryption).
+
+```bash title="Adding a channel called testing-channel"
+$ meshtastic --ch-add testing-channel
+```

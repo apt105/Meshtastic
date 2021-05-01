@@ -4,18 +4,14 @@ title: Remote node administration
 sidebar_label: Remote node admininstration
 ---
 
-This is the first documentation for how to use the multiple channels feature to enable remote adminstration of meshtastic nodes.  This will let you talk through the mesh to some far away node and change that nodes settings.  This is an advanced feature that (currently) few users would need.  Also, keep in mind it is possible (if you are not careful) to assign settings to that remote node that cause it to completely drop off of your mesh.
-
-If you **do** need to use remote GPIO/serial now, just follow these instructions but name your new channel "gpio" or "serial".
+This feature will allow you to use the multiple channels feature to enable remote adminstration of meshtastic nodes.  This will let you talk through the mesh to some far away node and change that node's settings.  This is an advanced feature that (currently) few users would need.  Also, keep in mind it is possible (if you are not careful) to assign settings to that remote node that cause it to completely drop off of your mesh.
 
 ## Creating the "admin" channel
 
-Okay - now that we've summarized what multiple-channel support is, we can move on to using it to provide remote administrative access to a node.
-
 By default, nodes will **only** respond to adminstrative commands via the local USB/bluetooth/TCP interface.  This provides basic security to prevent unauthorized access.  This is actually how 'normal' administration and settings changes work.  The only difference for the remote case is that we are sending those commands over the mesh.
 
-Before a node will allow remote admin access, it must find a channel 
-```bash
+Before a node will allow remote admin access, it must have a primary channel:
+```bash title="Expected output"
 $ meshtastic --info
 Connected to radio
 ...
@@ -26,10 +22,18 @@ Primary channel URL: https://www.meshtastic.org/d/#CgUYAyIBAQ
 
 So from this output you see that this node knows about only one channel and that its PSK is set to the default value.
 
-But if you then add an admin channel (with `meshtastic --ch-add admin`).  Note: the name is important it must be "admin" (sorry):
+Now add an admin channel: 
+
+```bash title="Command"
+meshtastic --ch-add admin
+```
+
+:::note
+The name of the channel is important, it must be `admin`.
+:::
 
 Your channels will now look like this:
-```bash
+```bash title="Expected output"
 $ meshtastic --ch-add admin
 Connected to radio
 Writing modified channels to device
@@ -43,7 +47,7 @@ Primary channel URL: https://www.meshtastic.org/d/#CgUYAyIBAQ
 Complete URL (includes all channels): https://www.meshtastic.org/d/#CgUYAyIBAQopIiAdbsTecxuI1u-voyGwOicsKaPt5ICG23ONsjH-vk5CaCoFYWRtaW4
 ```
 
-Notice that now we have a new secondary channel.  Also, the "--info" option prints out TWO URLs.  The "complete URL" includes all of the channels this node understands.  You should consider this URL something you should be very cautious about sharing.  In the case of remote adminstration, you only need the node you want to adminster and the node you are locally connected to know this new "admin" channel.
+Notice that now we have a new secondary channel.  Also, the "--info" option prints out TWO URLs.  The "Complete URL" includes all of the channels this node understands.  You should consider this URL something you should be very cautious about sharing.  In the case of remote adminstration, you only need the node you want to adminster and the node you are locally connected to know this new "admin" channel.
 
 ## Sharing the admin channel with other nodes
 
@@ -64,9 +68,9 @@ At this point you can take your remote node and install it far away and still be
 
 Now that both your local node and the remote node contain your secret admin channel key, you can do things like this:
 
-Get the node list from the local node.
+Get the node list from the local node:
 
-```bash
+```bash title="Expected output"
 $ meshtastic --nodes
 Connected to radio
 /----------------------------------------------------------------------------------------------------------\
@@ -78,16 +82,20 @@ Connected to radio
 
 Using the node ID from that list, send a message through the mesh telling that node to change its owner name.
 
-```bash
+```bash title="Expected output"
 $ meshtastic --dest \!28979058 --set-owner "Im Remote"
 Connected to radio
 Setting device owner to Im Remote
 INFO:root:Requesting configuration from remote node (this could take a while)
 ```
 
+:::note
+You will need to escape the `!` using `\!` otherwise the command will fail.
+:::
+
 And you can now confirm via the local node that the remote node has changed:
 
-```bash
+```bash title="Expected output"
 $ meshtastic --nodes 
 Connected to radio
 /----------------------------------------------------------------------------------------------------\
@@ -97,9 +105,9 @@ Connected to radio
 \----------------------------------------------------------------------------------------------------/
 ```
 
-Note: you can change **any** parameter, add channels or get info from the remote node.  Here's an example of setting ls_secs and printing the complete device info from the remote node.
+Note: you can change **any** parameter, add channels or get info from the remote node.  Here's an example of setting ls_secs and printing the complete device info from the remote node:
 
-```bash
+```bash title="Expected output"
 $ meshtastic --dest \!28979058 --set ls_secs 301 --info
 Connected to radio
 INFO:root:Requesting configuration from remote node (this could take a while)

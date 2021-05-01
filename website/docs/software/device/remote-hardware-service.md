@@ -10,6 +10,8 @@ Note: This feature uses a preinstalled plugin in the device code and associated 
 
 You can get the latest python tool/library with "pip3 install --upgrade meshtastic" on Windows/Linux/OS-X.
 
+If you **do** need to use remote GPIO/serial now, just follow these instructions but name your new channel "gpio" or "serial".
+
 ## Supported operations in the initial release
 
 - Set any GPIO
