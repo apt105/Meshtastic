@@ -4,7 +4,9 @@ title: Remote Hardware Service
 sidebar_label: Remote Hardware
 ---
 
-These are 'programmer focused' notes on using the remote hardware feature.  
+:::warning
+GPIO access is fundamentally dangerous because invalid options can physically damage or destroy your hardware. Ensure that you fully understand the schematic for your particular device before trying this as we do not offer a warranty. Use at your own risk.
+:::
 
 :::note
 This feature uses a preinstalled plugin in the device code and associated commandline flags/classes in the python code.  You'll need to be running at least version 1.2.23 (or later) of the python and device code to use this feature.
@@ -20,9 +22,7 @@ You can get the latest python tool/library with `pip3 install --upgrade meshtast
 
 ## Setup
 
-:::warning
-GPIO access is fundamentally dangerous because invalid options can physically damage or destroy your hardware. Ensure that you fully understand the schematic for your particular device before trying this as we do not offer a warranty.
-:::
+
 
 To prevent access from untrusted users you must first make a `gpio` channel that is used for authenticated access to this feature.  You'll need to install this channel on both the local and remote node.
 
