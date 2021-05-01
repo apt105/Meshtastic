@@ -22,21 +22,27 @@ A number of devices support buttons that can be used to interact with the firmwa
 ### Screens
 
 A number of devices have screens capable of displaying the messages received and information about the mesh and other details. On powering the device it will display the Meshtastic splashscreen for a couple of seconds:
+
 ![Splash screen](/img/screen/mesh-splash.jpg)
 
 The screen is split up into pages, through which you can navigate using the program button as described above. The first page to be displayed will be the message screen where received messages are displayed. The devices will automatically switch to this page when a new message is received.
+
 ![Message page](/img/screen/mesh-message.jpg)
 
 The next pages display information about the nodes that are currently on the mesh. This includes the distance and direction to that node, along with signal strenth and time last seen.
+
 ![Node page](/img/screen/mesh-node1.jpg) ![Node page](/img/screen/mesh-node2.jpg)
 
 The next page shows information about the device, battery power, number of nodes and how many are connected current, number of GPS satalites being received, channel name, last digits of the MAC address, and names of the last nodes to join the mesh.
+
 ![Channel page](/img/screen/mesh-channel.jpg)
 
 The final page shows current battery voltage and capacity, as well as noting how long the device has been online and the current GPS time and GPS location.
+
 ![GPS page](/img/screen/mesh-gps.jpg)
 
 If the device wifi has been enabled (only possible on ESP32 devices), another page appears displaying information about the WiFi settings, IP address and number of devices connected to the WiFi.
+
 ![Wifi page](/img/screen/mesh-wifi.jpg)
 
 With a further press of the program button, the screen will cycle round to the message page.
