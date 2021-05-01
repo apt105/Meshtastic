@@ -19,7 +19,7 @@ module.exports = {
     "software/overview-software",
     {
       "Meshtastic device": [
-        "software/device-software",
+        "software/device/device-software",
         "software/device/device-channels",
         "software/device/device-remote-admin",
         "software/device/remote-hardware-service",

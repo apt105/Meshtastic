@@ -12,6 +12,7 @@ This is a plugin for ATAK (Android Team Awareness Kit) that uses Meshtastic to p
 
 The builds of the plugin on the Google Drive currently aren't signed for the Play Store version of ATAK yet. At the moment you will need to install the dev build of ATAK from the drive link to use the plugin.
 
+The ATAK plugin requires the Meshtastic Android app to be installed.
 
 * A walk-through on how to [set up ATAK](https://paul-mandal.medium.com/atak-for-hikers-d96d5246193e).
 * The plugin source is available on [GitHub](https://github.com/paulmandal/atak-forwarder/), along with instructions for setting it up.
