@@ -15,7 +15,7 @@ To enable WiFi access to an existing access point, you need to set two preferenc
 
 This can be done using the python CLI
 
-```bash
+```bash title="Expected output"
 $ meshtastic --set wifi_ssid dogsRuleCatsDrool --set wifi_password butDogsFearCats
 Connected to radio
 Set wifi_ssid to dogsRuleCatsDrool
@@ -37,7 +37,7 @@ You should then be able to connect to the node using either the displayed IP add
 
 To disable the WiFi, set the preferences to empty strings.
 
-```bash
+```bash title="Expected output"
 $ meshtastic --set wifi_ssid "" --set wifi_password ""
 Connected to radio
 Set wifi_ssid to 
@@ -57,7 +57,7 @@ The device can also be set up in access point mode and is capable of hosting upt
 
 Use the following command to set the preferences:
 
-```bash
+```bash title="Expected output"
 $ meshtastic --set wifi_ssid dogsRuleCatsDrool --set wifi_password butDogsFearCats --set wifi_ap_mode true
 Connected to radio
 Set wifi_ssid to dogsRuleCatsDrool
@@ -82,7 +82,7 @@ The first time your device restarts after enabling the WiFi access point, it wil
 
 To disable the WiFi access point, set the preferences to empty strings and the `wifi_ap_mode` to `false`
 
-```bash
+```bash title="Expected output"
 $ meshtastic --set wifi_ssid "" --set wifi_password "" --set wifi_ap_mode false
 Connected to radio
 Set wifi_ssid to 
