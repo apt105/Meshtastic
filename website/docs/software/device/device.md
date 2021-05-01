@@ -25,7 +25,7 @@ A number of devices have screens capable of displaying the messages received and
 
 ![Splash screen](/img/screen/mesh-splash.jpg)
 
-The screen is split up into pages, through which you can navigate using the program button as described above. The first page to be displayed will be the message screen where received messages are displayed. The devices will automatically switch to this page when a new message is received.
+The screen is split up into pages, through which you can navigate using the program button as described above. The first page to be displayed will be the message screen where received messages are displayed along with the name of the node it came from. The devices will automatically switch to this page when a new message is received.
 
 ![Message page](/img/screen/mesh-message.jpg)
 
