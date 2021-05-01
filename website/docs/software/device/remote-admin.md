@@ -6,9 +6,9 @@ sidebar_label: Remote node admininstration
 
 This feature will allow you to use the multiple channels feature to enable remote adminstration of meshtastic nodes.  This will let you talk through the mesh to some far away node and change that node's settings.  This is an advanced feature that (currently) few users would need.  Also, keep in mind it is possible (if you are not careful) to assign settings to that remote node that cause it to completely drop off of your mesh.
 
-## Creating the "admin" channel
+## Creating the admin channel
 
-By default, nodes will **only** respond to adminstrative commands via the local USB/bluetooth/TCP interface.  This provides basic security to prevent unauthorized access.  This is actually how 'normal' administration and settings changes work.  The only difference for the remote case is that we are sending those commands over the mesh.
+By default, nodes will **only** respond to adminstrative commands via the local USB/bluetooth/TCP interface.  This provides basic security to prevent unauthorized access.  This is how normal administration and settings changes work.  The only difference for the remote case is that we are sending those commands over the mesh.
 
 Before a node will allow remote admin access, it must have a primary channel:
 ```bash title="Expected output"

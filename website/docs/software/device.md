@@ -11,7 +11,10 @@ The current firmware has support for a screen to display received messages, alon
 ### Buttons
 
 A number of devices support buttons that can be used to interact with the firmware. These buttons have a number of different functions:
-* Single press - This changes the page of information displayed on the screen.
-* Double press - This sets the bluetooth pairing code to `123456` (useful if you do not have a screen on the device).
-* Long press - This adjusts the contrast of the screen.
-* Long press during reboot - This turns on the software wifi access point on devices that support wifi.
+* Reset button - This is present on most devices
+* Power button - This is present on some devices. A long press powers the device off or turns it back on again.
+* Progrram button - This is present of some devices and has a number of functions:
+    * Single press - This changes the page of information displayed on the screen.
+    * Double press - This sets the bluetooth pairing code to `123456` (useful if you do not have a screen on the device).
+    * Long press - This adjusts the contrast of the screen.
+    * Long press during reboot - This turns on the software wifi access point on devices that support wifi.
