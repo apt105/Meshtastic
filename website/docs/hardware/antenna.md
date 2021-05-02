@@ -126,6 +126,8 @@ There, you will also find reference to Meshtastic range achievements, aerial rec
     * Predict the received signal strength
 
 
+### Antenna designs
+
 * [1/4 Wave Ground Plane Antenna Calculator](https://m0ukd.com/calculators/quarter-wave-ground-plane-antenna-calculator/)
 
 
