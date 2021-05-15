@@ -9,6 +9,11 @@ module.exports = {
       ],
     },
     "getting_started/concepts_getting_started",
+    {
+      type: "link",
+      label: "Release notes",
+      href: "https://github.com/meshtastic/Meshtastic-device/releases",
+    },
     "getting_started/faq",
     "getting_started/resources_getting_started",
     {
