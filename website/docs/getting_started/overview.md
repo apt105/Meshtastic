@@ -37,25 +37,25 @@ This software is 100% open source and developed by a group of hobbyist experimen
 ## Software applications
 
 The following applications are available to support your Meshtastic network:
-  * The [firmware]() to run on the devices
-  * Connect to the devices with our [Android app]()
-  * An [iOS application]() is in the works
-  * [Meshtastic.js]() provides a javascript library to interface with devices
+  * The [firmware] to run on the devices
+  * Connect to the devices with our [Android app]
+  * An [iOS application] is in the works
+  * [Meshtastic.js] provides a javascript library to interface with devices
   * [Meshtastic-python](https://pypi.org/project/meshtastic/) provides access from desktop computers
-  * A [web interface]() can be accessed over wifi on ESP32 devices
+  * A [web interface] can be accessed over wifi on ESP32 devices
   * Pre-installed device plugins for:
-    * [Range testing]()
-    * [External notifications]()
-    * [Serial communication]()
-    * [Store and forewarding messages]() (in development)
-    * [Environment measurement]() (in development)
+    * [Range testing]
+    * [External notifications]
+    * [Serial communication]
+    * [Store and forewarding messages] (in development)
+    * [Environment measurement] (in development)
   * Community projects include:
-    * A [plugin]() for the [Android Team Awareness Kit (ATAK)](https://play.google.com/store/apps/details?id=com.atakmap.app.civ)
-    * [PyGUI](), a platform agnostic graphical user interface for devices
+    * A [plugin] for the [Android Team Awareness Kit (ATAK)](https://play.google.com/store/apps/details?id=com.atakmap.app.civ)
+    * [PyGUI], a platform agnostic graphical user interface for devices
 
 ## Supported hardware
 
-We currently support a number of different devices based on the ESP32 and nRF52 microcontrollers. The way it is designed allows it to ported to new boards relatively easily. See our [hardware]() section for a complete listing of supported hardware.
+We currently support a number of different devices based on the ESP32 and nRF52 microcontrollers. The way it is designed allows it to ported to new boards relatively easily. See our [hardware] section for a complete listing of supported hardware.
 
 Make sure to buy the frequency range which is legal for your country. In the Americas get the 915mhz version, in Europe the 868Mhz, or Asia 923Mhz. See this listing by [The Things Network](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country.html) for frequencies by specific countries. Getting a version that include a screen is optional, but highly recommended.
 
