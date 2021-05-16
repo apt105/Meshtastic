@@ -63,5 +63,5 @@ Make sure to buy the frequency range which is legal for your country. In the Ame
 
 Looking for help in getting started? Have you set up a network you want to showcase? Or built a new board or enclosure? Join our [forum](https://meshtastic.discourse.group/) and let us know! We actively welcome new users.
 
-Have you got an idea that you want to see implemented? Do you want to help improve Meshtastic? We welcome all developers, new and experienced! Browse our code on [GitHub](https://github.com/meshtastic), open a new issue and discuss your ideas on the [forum](https://meshtastic.discourse.group/)!
+Have you got an idea that you want to see implemented? Do you want to help improve Meshtastic? We welcome all developers, new and experienced! Browse our code on [GitHub](https://github.com/meshtastic), see our [Developers] section, open a new issue and discuss your ideas on the [forum](https://meshtastic.discourse.group/)!
 
