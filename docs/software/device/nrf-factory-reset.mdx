@@ -1,0 +1,83 @@
+---
+id: nrf-factory-reset
+title: nRF52 factory reset firmware
+sidebar_label: nRF52 device reset
+---
+
+This firmware for the nRF52 devices (RAK4631 and T-Echo) can be used the completely wipe the firmware and settings of the device. This can be useful if you are having problems with such a device, such as the following:
+
+- When upgrading from version 1.2.x to 1.3.x or downgrading from 1.3.x to 1.2.x
+- If SoftRF was previously installed on the device
+- If Circuit-Python was previously used on the device
+- If the device gets stuck in a reboot loop
+
+
+This list is non-exhaustive.
+
+If you are having a problem with your device and you have not been able to resolve it using the [factory-reset command](/docs/settings/misc#factory_reset), then it may be worth trying this firmware to wipe the device prior to re-installing your preferred firmware. This firmware was developed by Mark Birss, and the code is available on his [GitHub page](https://github.com/markbirss/nRF52_Internal_Format).
+
+## Download firmware
+
+The firmware is publish as both a compiled uploadable firmware and is available as source to compile depending on which you prefer.
+
+<div className="indexCtasBody">
+  <Link
+    className={'button button--outline  button--lg cta--button'}
+    to={'https://github.com/markbirss/nRF52_Internal_Format/raw/main/Meshtastic_nRF52_factory_erase.uf2'}
+  >
+    Download pre-compiled nRf52 reset firmware
+  </Link>
+</div>
+
+<br />
+
+<details>
+
+<summary>Would you prefer to compile the code yourself?</summary>
+
+This assumes you have [Python3](https://www.python.org/) and [Arduino](https://www.arduino.cc/en/software) installed, and have installed the [Adafruit boards package](https://learn.adafruit.com/add-boards-arduino-v164/setup) in Arduino and the Adafruit nRF52 package in the Boards manager.
+
+Download the source code from [GitHub](https://github.com/markbirss/nRF52_Internal_Format). You need the `uf2conv.py`, `uf2families.json` and `Meshtastic_nRF52_factory_erase\Meshtastic_nRF52_factory_erase.ino` files.
+
+Open the `Meshtastic_nRF52_factory_erase\Meshtastic_nRF52_factory_erase.ino` file in Arduino.
+
+Under Tools and Board, set your board type to a nRF52 device (ie Nordic nRF52840).
+
+[<img alt="Select the nRF52840 board" src="/img/nrf52-erase-arduino-board.png" />](/img/nrf52-erase-arduino-board.png)
+
+Compile the sketch and export the compiled binary.
+
+[<img alt="Select the nRF52840 board" src="/img/nrf52-erase-arduino-compile.png" />](/img/nrf52-erase-arduino-compile.png)
+
+Locate the resulting hex file (example given for linux) and move it to the same folder as `uf2conv.py`.
+
+```shell
+find /tmp -name Meshtastic_nRF52_factory_erase.ino.hex
+```
+
+Convert the hex file to uf2 using the uf2conv.py program that you downloaded with the firmware source code.
+
+```shell
+python uf2conv.py Meshtastic_nRF52_factory_erase.ino.hex -c -f 0xADA52840
+cp flash.uf2 Meshtastic_nRF52_factory_erase.uf2
+```
+
+Use the new `Meshtastic_nRF52_factory_erase.uf2` file with the following instructions.
+
+</details>
+
+Connect your nRF52 device to your computer with a **data** cable.
+
+Double press the reset button on your device. This will place the device into Device Firmware Update (DFU) mode, and will mount a new drive on your computer.
+
+Copy the `Meshtastic_nRF52_factory_erase.uf2` straight to the new drive.
+
+Your device will now reboot and load the firmware. To complete the wipe, you need to connect to the device over a serial connection using your preferred software (putty, tio, etc).
+
+[<img alt="Connecting to the device" src="/img/nrf52-erase1.png" />](/img/nrf52-erase1.png)
+
+Now press any key and the device will begin to erase, informing you when it is complete.
+
+[<img alt="Connecting to the device" src="/img/nrf52-erase2.png" />](/img/nrf52-erase2.png)
+
+Now double press the reset button and upload your desired Meshtastic firmware.
